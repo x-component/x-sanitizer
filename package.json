@@ -1,0 +1,15 @@
+{
+	"name"    : "x-sanitizer",
+	"version" : "1.0.0",
+	"license" : "MIT",
+	"dependencies" : {
+		"sanitizer"  : "latest"
+	},
+	"devDependencies":{
+		"x-publish": "1.x.x"
+	},
+	"main" : "sanitizer.js",
+	"scripts": {
+		"prepublish" : "./node_modules/x-publish/scripts/prepublish.sh"
+	}
+}
